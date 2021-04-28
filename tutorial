@@ -1,0 +1,18 @@
+// buka terminal di kali linux
+
+$ sudo su
+
+// Pastikan aplikasi uniscan telah terinstall. Jika belum maka :
+$ sudo apt-get install uniscan
+
+// Jika sudah terinstall :
+$ uniscan -u <target url> -qweds
+
+-q <enable directory checks> jika ada kode 200, maka web tersebut aman
+-w <enable file checks>
+-e <enable robots.txt and sitemap.xml check>
+-d <enable dynamic checks
+-s <enable static checks>
+
+//Perintah untuk menunjukkan ip target
+$ uniscan -u <target>
